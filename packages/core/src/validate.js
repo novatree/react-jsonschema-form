@@ -15,6 +15,7 @@ function createAjvInstance() {
     multipleOfPrecision: 8,
     schemaId: "auto",
     unknownFormats: "ignore",
+    logger: false
   });
 
   // add custom formats
